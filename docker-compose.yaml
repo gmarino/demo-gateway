@@ -5,7 +5,7 @@ services:
     image: gmarino/demo-gateway:0.0.1-SNAPSHOT
     mem_limit: 700m
     ports:
-      - "8080:8080"
+      - "8765:8765"
     networks:
       - prova-network
 
